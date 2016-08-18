@@ -11,8 +11,8 @@ end
 def mosaic(img, row, column, max_row, max_column)
   # color = img.pixel_color(row, column)
   color = generate_rga()
-  (row..(row+STEP)).each do |i|
-    (column..(column+STEP)).each do |j|
+  (row...[row+STEP, max_row].min).each do |i|
+    (column...[column+STEP, max_column].min).each do |j|
       img.pixel_color(i, j, color)
     end
   end
