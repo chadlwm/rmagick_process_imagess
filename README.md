@@ -14,3 +14,4 @@
 	- `example_4_binarization.rb.rb` :  图像的二值化处理
 	- `example_5_mosaic_with_rand_rga.rb.rb` :  图像的rgb马赛克处理
 	- `example_6_mosaic_img.rb.rb` :  图像的马赛克处理
+	- `example_7_reverse.rb.rb` :  图像的反色
